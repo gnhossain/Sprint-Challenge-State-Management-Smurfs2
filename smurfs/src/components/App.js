@@ -10,9 +10,11 @@ class App extends Component {
     return (
       <div className="App">
         <h1>SMURFS! 2.0 W/ Redux</h1>
-        <div>Welcome to your state management version of Smurfs!</div>
-        <div>Start inside of your `src/index.js` file!</div>
-        <div>Have fun!</div>
+        <div>
+        <h2>Welcome to your state management version of Smurfs!</h2>
+        </div>
+        {/* <div>Start inside of your `src/index.js` file!</div> */}
+        <div><h3>Have fun!</h3></div>
         <SmurfForm/>
         <SmurfList/>
       </div>

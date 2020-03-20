@@ -1,3 +1,38 @@
 .App {
   text-align: center;
 }
+
+button{
+  margin:10px !important;
+  border-radius:4px;
+  border: 2px solid steelblue;
+  padding:5px;
+  color:steelblue;
+}
+
+h1,h2,h3{
+  color:steelblue;
+}
+.card{
+  width: 250px;
+  height: 200px;
+  margin: 20px;
+  box-shadow: 10px 10px 5px grey;
+  border-radius: 10%;
+  border: 1px solid wheat;
+  padding: 15px;
+  color:whitesmoke;
+  background-color: steelblue;
+  
+}
+.card{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+ 
+}
+::placeholder{
+  height: 30px;
+  font-size: 1.5rem;
+  
+}
